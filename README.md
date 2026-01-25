@@ -1,5 +1,6 @@
 # Project Name : TEJ資料庫整理 (EPU外)
 ![Python](https://img.shields.io/badge/Python-3.8-blue)
+![](https://img.shields.io/badge/-pandas-pink)
 ![](https://img.shields.io/badge/-企業韌性變數-F7E987) ![](https://img.shields.io/badge/-控制變數-3BC1A8)
 ## 企業韌性變數 
 | 變數 | 描述 | 狀態 | 額外描述 |
