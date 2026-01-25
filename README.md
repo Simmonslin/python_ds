@@ -40,5 +40,9 @@
 |------|------|
 |``` .setdiff1d(A,B)```  | 回傳不一致的值|
 |``` intersect1d(A,B,return_indices=True)```| 回傳共同值，並顯示共同值在A和B的索引|
+|```.where(condition)```| 回傳包含滿足條件的元素的索引的元組|
+|```.where(condition,True值下的結果，False值下的結果)```| 回傳判別後的設定值|
+
+
 
 
