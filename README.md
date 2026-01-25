@@ -41,6 +41,20 @@
 |```.where(condition)```| 回傳包含滿足條件的元素的索引的元組|
 |```.where(condition,True值下的結果，False值下的結果)```| 回傳判別後的設定值|
 
+### Pandas 模組
+| 名稱 | 功能 | 補充
+|------|------|------|
+|``` .values.flatten()```| 將series轉換成np.array()，並將資料壓縮成一維|
+|``` series.inin(condition)```  | 回傳series內的值是否符合condition，回傳值 = True / False |
+|```.str.replace(A,B)```| 將字串中的A替換成B| A B的型態皆需為str |
+|```.str.extract(r'^(\w+)')```| 萃取出字串的特定部分| e.g : 前述 = 依regex，僅萃取出字串中的數字or字母部分|
+|```.str.fullmatch(r'.*集團'),1,0)```| 回傳字串是否完全匹配條件 : True / False | e.g : 前述 = 依regex，確認該企業是否以集團為結尾|
+|```.str.contains("集團")```| 回傳字串是否部分匹配條件 : True / False | 僅需匹配到企業名字中是否包含集團|
+
+
+
+
+
 
 
 
