@@ -1,6 +1,6 @@
 # Project Name : TEJ資料庫整理 (EPU外)
 
-![](https://img.shields.io/badge/-企業韌性變數-F7E987)
+![](https://img.shields.io/badge/-企業韌性變數-F7E987) ![](https://img.shields.io/badge/-控制變數-3BC1A8)
 ## 企業韌性變數 
 | 功能 | 描述 | 狀態 | 額外描述 |
 |------|------|:----:|------|
