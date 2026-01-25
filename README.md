@@ -1,6 +1,7 @@
 # Project Name : TEJ資料庫整理 (EPU外)
 
-## <span style = "color : yellow">企業韌性變數 </span>
+![](https://img.shields.io/badge/-企業韌性變數-F7E987)
+## 企業韌性變數 
 | 功能 | 描述 | 狀態 | 額外描述 |
 |------|------|:----:|------|
 | 資產總額_自然變數 | 取自然變數 | &#x2705; | 財務狀況 |
