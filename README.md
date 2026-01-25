@@ -39,4 +39,6 @@
 | 名稱 | 功能 |
 |------|------|
 |``` .setdiff1d(A,B)```  | 回傳不一致的值|
+|``` intersect1d(A,B,return_indices=True)```| 回傳共同值，並顯示共同值在A和B的索引|
+
 
