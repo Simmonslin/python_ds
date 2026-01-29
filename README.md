@@ -50,6 +50,11 @@
 |```.str.extract(r'^(\w+)')```| 萃取出字串的特定部分| e.g : 前述 = 依regex，僅萃取出字串中的數字or字母部分|
 |```.str.fullmatch(r'.*集團'),1,0)```| 回傳字串是否完全匹配條件 : True / False | e.g : 前述 = 依regex，確認該企業是否以集團為結尾|
 |```.str.contains("集團")```| 回傳字串是否部分匹配條件 : True / False | 僅需匹配到企業名字中是否包含集團|
+|```pd.concat([A,B],axis=0 or 1)```| 合併不同資料 | axis=0=垂直合併 1=水平合併|
+|```DataFrame.groupby()[].function()```| 根據設定標準將資料分成不同組別，並對各群組獨立應用函數 | function = mean () = 算出各組之均值 |
+|```.transform()```| 根對每個值應用函數 (標準化, 填補空值) | 與原始大小相同 |
+
+
 
 
 
