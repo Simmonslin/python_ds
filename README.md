@@ -53,6 +53,7 @@
 |```pd.concat([A,B],axis=0 or 1)```| 合併不同資料 | axis=0=垂直合併 1=水平合併|
 |```DataFrame.groupby()[].function()```| 根據設定標準將資料分成不同組別，並對各群組獨立應用函數 | function = mean () = 算出各組之均值 |
 |```.transform()```| 根對每個值應用函數 (標準化, 填補空值) | 與原始大小相同 |
+|```.DataFrame.fillna(value)```| 將缺失值填入特定值 | e.g : value = 0 ，則所有缺失值將以0替代 |
 
 
 
